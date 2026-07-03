@@ -4,7 +4,7 @@ A production-ready **Lead Distribution System** built with React 19, Node.js/Exp
 
 ## 🚀 Quick Start 
   
-### Prerequisites 
+### Prerequisites  
 - Node.js 18+  
 - MongoDB Atlas account (or local MongoDB)  
  
