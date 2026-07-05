@@ -5,7 +5,7 @@ module.exports = {
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
   ],
-  theme: {
+  theme: { 
     container: {
       center: true,
       padding: '2rem',
