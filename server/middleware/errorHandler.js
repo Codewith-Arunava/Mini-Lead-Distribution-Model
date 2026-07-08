@@ -3,7 +3,7 @@ const errorHandler = (err, req, res, next) => {
   let message = err.message || 'Internal Server Error';
 
   // Mongoose bad ObjectId
-  if (err.name === 'CastError') {
+  if (err.name === 'CastError') { 
     statusCode = 400;  
     message = `Invalid ID: ${err.value}`;
   }
