@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
-// Protect routes — verify JWT from HttpOnly cookie
+// Protect routes — verify JWT from HttpOnly cookie 
 const protect = async (req, res, next) => {
   const token = req.cookies?.token;
 
