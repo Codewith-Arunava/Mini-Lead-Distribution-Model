@@ -6,7 +6,7 @@ const errorHandler = (err, req, res, next) => {
   if (err.name === 'CastError') { 
     statusCode = 400;  
     message = `Invalid ID: ${err.value}`;
-  }
+  } 
  
   // Mongoose duplicate key
   if (err.code === 11000) {
