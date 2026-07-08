@@ -4,7 +4,7 @@ const errorHandler = (err, req, res, next) => {
 
   // Mongoose bad ObjectId
   if (err.name === 'CastError') {
-    statusCode = 400;
+    statusCode = 400; 
     message = `Invalid ID: ${err.value}`;
   }
 
