@@ -5,7 +5,7 @@ const connectDB = require('./config/db');
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
-  await connectDB();
+  await connectDB(); 
 
   app.listen(PORT, () => {
     console.log(`\n🚀 LeadFlow Mini Server running on port ${PORT}`);
