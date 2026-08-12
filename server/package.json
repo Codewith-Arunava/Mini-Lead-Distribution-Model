@@ -2,7 +2,7 @@
   "name": "leadflow-mini-server",
   "version": "1.0.0",
   "description": "LeadFlow Mini - Lead Distribution System API",
-  "main": "index.js",
+  "main": "index.js", 
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
