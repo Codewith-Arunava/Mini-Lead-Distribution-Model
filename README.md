@@ -17,9 +17,9 @@ cd server
 npm install 
 
 # Copy and configure environment variables 
-copy .env.example .env
+copy .env.example .env 
 # Edit .env with your MongoDB URI
-
+ 
 # Start development server
 npm run dev
 
