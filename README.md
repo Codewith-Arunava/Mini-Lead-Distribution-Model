@@ -1,4 +1,4 @@
-# LeadFlow Mini
+ # LeadFlow Mini
 
 A production-ready **Lead Distribution System** built with React 19, Node.js/Express, and MongoDB Atlas. 
  
@@ -11,7 +11,7 @@ A production-ready **Lead Distribution System** built with React 19, Node.js/Exp
 ---                           
 ## Backend Setup          
          
-```bash    
+```bash     
 cd server  
 npm install    
 # Copy and configure environment variables 
